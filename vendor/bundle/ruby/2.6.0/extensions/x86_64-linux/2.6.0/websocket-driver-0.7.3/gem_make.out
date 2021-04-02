@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
 /home/ec2-user/.rbenv/versions/2.6.3/bin/ruby -I /home/ec2-user/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20210401-2381-c5283t.rb extconf.rb
 creating Makefile
@@ -6,10 +7,26 @@ current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/w
 make "DESTDIR=" clean
 
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+=======
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210402-9119-1njbb3q.rb extconf.rb
+creating Makefile
+
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 make "DESTDIR="
 compiling websocket_mask.c
 linking shared-object websocket_mask.so
 
+<<<<<<< HEAD
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
 make "DESTDIR=" install
 /usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20210401-2381-soitjn
+=======
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20210402-9119-1ax3jqi
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937

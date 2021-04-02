@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
 /home/ec2-user/.rbenv/versions/2.6.3/bin/ruby -I /home/ec2-user/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20210401-2381-e8f68o.rb extconf.rb
+=======
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
+/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210402-9119-1utuqm8.rb extconf.rb
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -7,10 +12,17 @@ checking for ffi_prep_raw_closure()... yes
 creating extconf.h
 creating Makefile
 
+<<<<<<< HEAD
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
 make "DESTDIR=" clean
 
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
+=======
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 make "DESTDIR="
 compiling AbstractMemory.c
 compiling ArrayType.c
@@ -37,6 +49,12 @@ compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.so
 
+<<<<<<< HEAD
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
 make "DESTDIR=" install
 /usr/bin/install -c -m 0755 ffi_c.so ./.gem.20210401-2381-74ks5f
+=======
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20210402-9119-1bryv0n
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937

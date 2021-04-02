@@ -12,12 +12,21 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
+<<<<<<< HEAD
 topdir = /home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0
 hdrdir = $(topdir)
 arch_hdrdir = /home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
 prefix = $(DESTDIR)/home/ec2-user/.rbenv/versions/2.6.3
+=======
+topdir = /home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0
+hdrdir = $(topdir)
+arch_hdrdir = /home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux
+PATH_SEPARATOR = :
+VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
+prefix = $(DESTDIR)/home/ec2-user/.rvm/rubies/ruby-2.6.3
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -31,8 +40,13 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
+<<<<<<< HEAD
 sitearchdir = $(DESTDIR)./.gem.20210401-2381-173ndfv
 sitelibdir = $(DESTDIR)./.gem.20210401-2381-173ndfv
+=======
+sitearchdir = $(DESTDIR)./.gem.20210402-9119-146kud3
+sitelibdir = $(DESTDIR)./.gem.20210402-9119-146kud3
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -54,7 +68,11 @@ oldincludedir = $(DESTDIR)/usr/include
 includedir = $(prefix)/include
 localstatedir = $(prefix)/var
 sharedstatedir = $(prefix)/com
+<<<<<<< HEAD
 sysconfdir = $(prefix)/etc
+=======
+sysconfdir = $(DESTDIR)/etc
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 datadir = $(datarootdir)
 datarootdir = $(prefix)/share
 libexecdir = $(exec_prefix)/libexec
@@ -68,8 +86,13 @@ CC = gcc
 CXX = g++
 LIBRUBY = $(LIBRUBY_SO)
 LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a
+<<<<<<< HEAD
 LIBRUBYARG_SHARED = -Wl,-rpath,$(libdir) -L$(libdir) -l$(RUBY_SO_NAME)
 LIBRUBYARG_STATIC = -Wl,-rpath,$(libdir) -L$(libdir) -l$(RUBY_SO_NAME)-static $(MAINLIBS)
+=======
+LIBRUBYARG_SHARED = -Wl,-rpath,'$${ORIGIN}/../lib' -Wl,-rpath,'$${ORIGIN}/../lib' -l$(RUBY_SO_NAME)
+LIBRUBYARG_STATIC = -Wl,-rpath,'$${ORIGIN}/../lib' -Wl,-rpath,'$${ORIGIN}/../lib' -l$(RUBY_SO_NAME)-static $(MAINLIBS)
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 empty =
 OUTFLAG = -o $(empty)
 COUTFLAG = -o $(empty)
@@ -86,10 +109,17 @@ CCDLFLAGS = -fPIC
 CFLAGS   = $(CCDLFLAGS) $(cflags)  -fPIC $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
+<<<<<<< HEAD
 CPPFLAGS = -DHAVE_UNISTD_H -DHAVE_LINUX_AIO_ABI_H -DEV_USE_LINUXAIO -DHAVE_SYS_SELECT_H -DEV_USE_SELECT -DHAVE_SYS_EPOLL_H -DEV_USE_EPOLL -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_RESOURCE_H -DEV_STANDALONE -I/home/ec2-user/.rbenv/versions/2.6.3/include  $(DEFS) $(cppflags)
 CXXFLAGS = $(CCDLFLAGS) $(cxxflags) $(ARCH_FLAG)
 ldflags  = -L. -L/home/ec2-user/.rbenv/versions/2.6.3/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic
 dldflags = -L/home/ec2-user/.rbenv/versions/2.6.3/lib  -Wl,--compress-debug-sections=zlib 
+=======
+CPPFLAGS = -DHAVE_UNISTD_H -DHAVE_LINUX_AIO_ABI_H -DEV_USE_LINUXAIO -DHAVE_SYS_SELECT_H -DEV_USE_SELECT -DHAVE_SYS_EPOLL_H -DEV_USE_EPOLL -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_RESOURCE_H -DEV_STANDALONE  $(DEFS) $(cppflags)
+CXXFLAGS = $(CCDLFLAGS) $(cxxflags) $(ARCH_FLAG)
+ldflags  = -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic
+dldflags = -Wl,--compress-debug-sections=zlib 
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
 LDSHARED = $(CC) -shared

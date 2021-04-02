@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.7/ext/nio4r
 /home/ec2-user/.rbenv/versions/2.6.3/bin/ruby -I /home/ec2-user/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20210401-2381-v9dobf.rb extconf.rb
+=======
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.7/ext/nio4r
+/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210402-9119-12kyqvz.rb extconf.rb
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for linux/io_uring.h... no
@@ -11,10 +16,17 @@ checking for port_event_t in port.h... no
 checking for sys/resource.h... yes
 creating Makefile
 
+<<<<<<< HEAD
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.7/ext/nio4r
 make "DESTDIR=" clean
 
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.7/ext/nio4r
+=======
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.7/ext/nio4r
+make "DESTDIR=" clean
+
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.7/ext/nio4r
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 make "DESTDIR="
 compiling bytebuffer.c
 compiling monitor.c
@@ -66,6 +78,12 @@ cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’
 compiling selector.c
 linking shared-object nio4r_ext.so
 
+<<<<<<< HEAD
 current directory: /home/ec2-user/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.7/ext/nio4r
 make "DESTDIR=" install
 /usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20210401-2381-173ndfv
+=======
+current directory: /home/ec2-user/environment/practice-aws-2/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.7/ext/nio4r
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20210402-9119-146kud3
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937

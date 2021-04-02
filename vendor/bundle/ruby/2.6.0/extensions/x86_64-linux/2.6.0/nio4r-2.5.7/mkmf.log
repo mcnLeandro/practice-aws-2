@@ -1,6 +1,10 @@
 have_header: checking for unistd.h... -------------------- yes
 
+<<<<<<< HEAD
 "gcc -o conftest -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC conftest.c  -L. -L/home/ec2-user/.rbenv/versions/2.6.3/lib -Wl,-rpath,/home/ec2-user/.rbenv/versions/2.6.3/lib -L. -L/home/ec2-user/.rbenv/versions/2.6.3/lib  -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/home/ec2-user/.rbenv/versions/2.6.3/lib -L/home/ec2-user/.rbenv/versions/2.6.3/lib -lruby  -lm   -lc"
+=======
+"gcc -o conftest -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC conftest.c  -L. -L/home/ec2-user/.rvm/rubies/ruby-2.6.3/lib -Wl,-rpath,/home/ec2-user/.rvm/rubies/ruby-2.6.3/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,'/../lib' -Wl,-rpath,'/../lib' -lruby  -lm   -lc"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -11,7 +15,11 @@ checked program was:
 6: }
 /* end */
 
+<<<<<<< HEAD
 "gcc -E -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+=======
+"gcc -E -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -23,7 +31,11 @@ checked program was:
 
 have_header: checking for linux/aio_abi.h... -------------------- yes
 
+<<<<<<< HEAD
 "gcc -E -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+=======
+"gcc -E -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -35,7 +47,11 @@ checked program was:
 
 have_header: checking for linux/io_uring.h... -------------------- no
 
+<<<<<<< HEAD
 "gcc -E -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+=======
+"gcc -E -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 conftest.c:3:10: fatal error: linux/io_uring.h: No such file or directory
  #include <linux/io_uring.h>
           ^~~~~~~~~~~~~~~~~~
@@ -51,7 +67,11 @@ checked program was:
 
 have_header: checking for sys/select.h... -------------------- yes
 
+<<<<<<< HEAD
 "gcc -E -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+=======
+"gcc -E -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -63,7 +83,11 @@ checked program was:
 
 have_type: checking for port_event_t in poll.h... -------------------- no
 
+<<<<<<< HEAD
 "gcc -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC   -c conftest.c"
+=======
+"gcc -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC   -c conftest.c"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 conftest.c:6:9: error: unknown type name ‘port_event_t’
  typedef port_event_t conftest_type;
          ^~~~~~~~~~~~
@@ -86,7 +110,11 @@ checked program was:
 
 have_header: checking for sys/epoll.h... -------------------- yes
 
+<<<<<<< HEAD
 "gcc -E -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+=======
+"gcc -E -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -98,7 +126,11 @@ checked program was:
 
 have_header: checking for sys/event.h... -------------------- no
 
+<<<<<<< HEAD
 "gcc -E -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+=======
+"gcc -E -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 conftest.c:3:10: fatal error: sys/event.h: No such file or directory
  #include <sys/event.h>
           ^~~~~~~~~~~~~
@@ -114,7 +146,11 @@ checked program was:
 
 have_type: checking for port_event_t in port.h... -------------------- no
 
+<<<<<<< HEAD
 "gcc -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC   -c conftest.c"
+=======
+"gcc -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC   -c conftest.c"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 conftest.c:3:10: fatal error: port.h: No such file or directory
  #include <port.h>
           ^~~~~~~~
@@ -134,7 +170,11 @@ checked program was:
 
 have_header: checking for sys/resource.h... -------------------- yes
 
+<<<<<<< HEAD
 "gcc -E -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/home/ec2-user/.rbenv/versions/2.6.3/include    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+=======
+"gcc -E -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/ec2-user/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c -o conftest.i"
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 checked program was:
 /* begin */
 1: #include "ruby.h"

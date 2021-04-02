@@ -12,8 +12,15 @@ Gem::Specification.new do |s|
   s.email = "sstephenson@gmail.com".freeze
   s.homepage = "https://github.com/turbolinks/turbolinks-source-gem".freeze
   s.licenses = ["MIT".freeze]
+<<<<<<< HEAD
   s.rubygems_version = "3.0.3".freeze
   s.summary = "Turbolinks JavaScript assets".freeze
 
   s.installed_by_version = "3.0.3" if s.respond_to? :installed_by_version
+=======
+  s.rubygems_version = "3.0.8".freeze
+  s.summary = "Turbolinks JavaScript assets".freeze
+
+  s.installed_by_version = "3.0.8" if s.respond_to? :installed_by_version
+>>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 end

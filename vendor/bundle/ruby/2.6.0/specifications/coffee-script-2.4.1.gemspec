@@ -13,17 +13,10 @@ Gem::Specification.new do |s|
   s.email = "josh@joshpeek.com".freeze
   s.homepage = "http://github.com/josh/ruby-coffee-script".freeze
   s.licenses = ["MIT".freeze]
-<<<<<<< HEAD
-  s.rubygems_version = "3.0.3".freeze
-  s.summary = "Ruby CoffeeScript Compiler".freeze
-
-  s.installed_by_version = "3.0.3" if s.respond_to? :installed_by_version
-=======
   s.rubygems_version = "3.0.8".freeze
   s.summary = "Ruby CoffeeScript Compiler".freeze
 
   s.installed_by_version = "3.0.8" if s.respond_to? :installed_by_version
->>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

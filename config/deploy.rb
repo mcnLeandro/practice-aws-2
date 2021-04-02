@@ -37,3 +37,11 @@ set :repo_url, "git@example.com:me/my_repo.git"
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
+set :application, 'manage_image'
+
+set :repo_url, 'https://mcnLeandro/practice-aws-2.git' 
+set :branch, 'master' 
+set :app, %{"35.73.122.99"}
+scm :git 
+server '35.73.122.99', user: 'root', roles: %w{ app }, ssh_options: { keys: [File.expand_path('~/.ssh/id_rsa')] }
+

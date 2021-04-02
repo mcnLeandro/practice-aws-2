@@ -19,15 +19,8 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT".freeze]
   s.rdoc_options = ["--main".freeze, "README.rdoc".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.2".freeze)
-<<<<<<< HEAD
-  s.rubygems_version = "3.0.3".freeze
-  s.summary = "Rake is a Make-like program implemented in Ruby".freeze
-
-  s.installed_by_version = "3.0.3" if s.respond_to? :installed_by_version
-=======
   s.rubygems_version = "3.0.8".freeze
   s.summary = "Rake is a Make-like program implemented in Ruby".freeze
 
   s.installed_by_version = "3.0.8" if s.respond_to? :installed_by_version
->>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 end

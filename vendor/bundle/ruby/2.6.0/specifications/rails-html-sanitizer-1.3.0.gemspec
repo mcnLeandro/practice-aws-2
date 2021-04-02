@@ -13,17 +13,10 @@ Gem::Specification.new do |s|
   s.email = ["rafaelmfranca@gmail.com".freeze, "kaspth@gmail.com".freeze]
   s.homepage = "https://github.com/rails/rails-html-sanitizer".freeze
   s.licenses = ["MIT".freeze]
-<<<<<<< HEAD
-  s.rubygems_version = "3.0.3".freeze
-  s.summary = "This gem is responsible to sanitize HTML fragments in Rails applications.".freeze
-
-  s.installed_by_version = "3.0.3" if s.respond_to? :installed_by_version
-=======
   s.rubygems_version = "3.0.8".freeze
   s.summary = "This gem is responsible to sanitize HTML fragments in Rails applications.".freeze
 
   s.installed_by_version = "3.0.8" if s.respond_to? :installed_by_version
->>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

@@ -59,3 +59,4 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+#server '35.73.122.99', user: 'root', roles: %w{ app } # 削除

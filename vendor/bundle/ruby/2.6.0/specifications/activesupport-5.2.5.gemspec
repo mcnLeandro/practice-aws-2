@@ -16,17 +16,10 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT".freeze]
   s.rdoc_options = ["--encoding".freeze, "UTF-8".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.2.2".freeze)
-<<<<<<< HEAD
-  s.rubygems_version = "3.0.3".freeze
-  s.summary = "A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.".freeze
-
-  s.installed_by_version = "3.0.3" if s.respond_to? :installed_by_version
-=======
   s.rubygems_version = "3.0.8".freeze
   s.summary = "A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.".freeze
 
   s.installed_by_version = "3.0.8" if s.respond_to? :installed_by_version
->>>>>>> 5c5c9e46c540e3080d5001caa67ec1409e8b6937
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

@@ -68,3 +68,6 @@ group :production do
 end
 
 gem 'mini_racer'
+
+gem 'capistrano', "~> 3.1"
+gem 'capistrano-rails'
